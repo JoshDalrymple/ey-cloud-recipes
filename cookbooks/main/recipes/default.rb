@@ -44,7 +44,7 @@
 #  username "username"
 #  password "password"
 #end
-
+include_recipe "delayed_job"
 #uncomment to install specified packages
 # You must add your packages to packages/attributes/packages.rb
 #require_recipe "packages"
